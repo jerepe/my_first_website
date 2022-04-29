@@ -7,7 +7,8 @@ It wasn't supposed to be turned into a blog, but as i was building
 it, it just stricked me "let's turn this stuff into a website and 
 put myself out there so i can connect with lots of people!"
 
-Unfortunately, the Linux server hosting the website was instantly 
+Unfortunately, the Linux server hosting the whole code was 
+instantly 
 turned down once i clicked on **I'm done with my project** in 
 order to send it for review.
 
