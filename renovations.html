@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jeremy's Holberton School Application Website</title>
+    <meta charset="UTF-8">
+    <meta name ="description" content="This is my first website">
+    <meta name="keywords" content="HTML, css, presentation, first webpage, Jeremy, content">
+    <meta name="author" content="Jeremy Perreau">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://apply.holbertonschool.com/level2/school.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="behavior.js"></script>
+  </head>
+
+  <body class="works_on_smartphone">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v13.0" nonce="m40GcA3P"></script>
+    <header>
+      <div class="right">
+        <div class="fb-share-button" data-href="http://3.90.179.34/renovations.html" data-layout="button_count" data-size="small" style="float: left;"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F3.90.179.34%2Frenovations.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        <div style="float: right;"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js"></script></div>
+      </div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./renovations.html">Renovations</a></li>
+        <li><a href="./resources.html">Resources</a></li>
+        <li><a href="./tweets.html">Tweets</a></li>
+        <li><a href="./archives.html">Archives</a></li>
+        <li><a href="./portfolio.html" target="_blank">Portfolio</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <article>
+        <h2>A brief dive into my process</h2>
+        <hr>
+        <p>So that's not the absolute starting point, but the idea was to first i play a bit with some basic concepts, like here, and add more content and then refine step-by-step:</p>
+        <a href="https://ibb.co/R6rrSJw"><img src="https://i.ibb.co/gWqq7cK/home1.png" alt="home1" style="border:0;"></a>
+        <hr>
+        <p>Cleaned a bit ...</p>
+        <a href="https://ibb.co/7YTjp5S"><img src="https://i.ibb.co/98fc4Lp/home2.png" alt="home2" style="border:0;"></a>
+        <hr>
+        <p>I then added some more formatting, and really tried to go as step by step as possible, so i could feel more comfortable through developping a deeper knowledge.</p>
+        <a href="https://ibb.co/ZhgvVxx"><img src="https://i.ibb.co/gDWQ3JJ/home3.png" alt="home3" style="border:0;"></a>
+        <hr>
+        <p>Wrote some text, and after applying the school.css file, i was quite happy with the result, even if it kinda came by "magic".</p>
+        <p>The background color is powderblue.</p>
+        <a href="https://ibb.co/cbGWbS7"><img src="https://i.ibb.co/k3RL3sW/home4.png" alt="home4" style="border:0;"></a>
+        <hr>
+        <p>Added <a href="https://disqus.com/" target="_blank">Disqus</a> which creates a comment/interactive section. Problem i faced was after a certain number of clicks the text color became white (as you can see on the picture).</p>
+        <p>After playing a bit with the "Color Scheme" setup on the Disqus website, i decided to not spend much time on this issue as it was clearly not a priority: i activated the "Light" mode instead of the "Auto" (the other one being "Dark").</p>
+        <a href="https://ibb.co/wJzr8M7"><img src="https://i.ibb.co/YDLTJpX/Screenshot-2022-03-14-at-17-30-22.png" alt="Screenshot-2022-03-14-at-17-30-22" border="0"></a>
+        <hr>
+        <p>I then added two sharing buttons.</p>
+        <a href="https://ibb.co/LvfcZ9T"><img src="https://i.ibb.co/M9LtCPz/Screenshot-2022-03-14-at-22-16-35.png" alt="Screenshot-2022-03-14-at-22-16-35" border="0"></a>
+        <hr>
+        <p>The final touch needed to complete the entrance tests was to align them. Done by using the code found <a href="https://stackoverflow.com/questions/727958/what-is-the-best-way-to-left-align-and-right-align-two-div-tags" target="_blank">here</a>.</p>
+        <a href="https://ibb.co/r4mn20N"><img src="https://i.ibb.co/vZH24qR/Screenshot-2022-03-15-at-00-25-02.png" alt="Screenshot-2022-03-15-at-00-25-02" border="0"></a>
+        <hr>
+        <h4>Overall:</h4>
+        <p>I really enjoyed the experience. Learning to use HTML, CSS and JS all in order to build my first blog (which was originally definitely not the objectif!) was great. I could do it again, this time much faster, so i'm happy with that. Add those facts to the mix:
+          <ol>
+            <li>i built skills which increase my overall "coding understanding"</li>
+            <li>i can use those skills to maintain a blog that will lead me to connect to a lot more people</li>
+          </ol>
+          ... and you have a happy programmer!</p>
+      </article>
+      <aside>
+        <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function () {
+          this.page.url = 'http://3.90.179.34/renovations.html';
+          this.page.identifier = '/renovations.html';
+          };
+          (function() {
+          var d = document, s = d.createElement('script');
+          s.src = 'https://http-3-90-179-34.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </aside>
+    </main>
+
+    <footer>Made by Jeremy Perreau for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a>
+    </footer>
+
+  </body>
+</html>
