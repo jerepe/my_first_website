@@ -1,8 +1,6 @@
 # My first website.
 
-Website created using a VM hosted on an Ubuntu server and Apache2 server - originally.
-
-Part of the second part of the entrance tests of the computer-science school Holberton.
+Website first created using a Ubuntu VM and Apache2 server as the second part of the Holberton Computer Science School's entrance tests.
 
 **Done only using CLI and Emacs**
 
