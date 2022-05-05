@@ -16,3 +16,6 @@
 > A bit before i copied all the codes, which i put aside waiting for an easy way to bring all that back online.
 > Then a Git & GitHub course mentionning Pages document made it possible,
 > and the website was borned again using only the CLI and Emacs one more time ;)
+
+*** NOTE :
+> The first tweet on the "Tweets" page has since then been removed (you can see it on the "Renovations" page) hence why it is "weirdly" displayed there.
